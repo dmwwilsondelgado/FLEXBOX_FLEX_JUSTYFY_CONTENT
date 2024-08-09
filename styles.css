@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #f2f2f2f2;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  width: 100vh;
+  height: 100vh ;
+  /* se aplica flexbox ala caja padre */
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap:wrap ; */
+  /* flex-wrap: nowrap; */
+  /* flex-flow: column wrap; */
+  /* justify-content: flex-end; */
+  /* al final de elementos */
+  justify-content: flex-start;
+  /* al principio de elementos */
+  /* justify-content: space-between; */
+  /* este los separa alos  items  */
+  justify-content: space-around;
+  /* aca es la suma de espacios que se justifica del contenido */
+
+  align-items: flex-start;
+  /* ALINEAR ITEMS AL INICIO  */
+  align-items: flex-end;
+  /* ALINEAR ITEMS AL FINAL  */
+  align-items:  center;
+  /* ALINEAR ITEMS AL CENTRO */
+  align-items: stretch;
+
+}
+
+
+
+.contenedor_primary{
+  /* max-width: 1200px; */
+  background-color: rgb(173, 18, 225);
+  width: 20vh;
+  /* height: 20vh ; */
+}
+
+
+.contenedor_secundary{
+  /* max-width: 1200px; */
+  background-color: rgb(17, 62, 150);
+  width: 20vh;
+  /* height: 20vh ; */
+}
+
+
+
+.contenedor_terciary{
+  /* max-width: 1200px; */
+  background-color: rgb(52, 225, 46);
+  width: 20vh;
+  /* height:  20vh ; */
+}
+
+
+/* padre */
+.contenedor__2{
+  max-width: 1200px;
+  background-color: blue;
+  width: 100vh;
+  height: 100vh ;
+}
+/* hijo */
+.contenedor__unico{
+  background-color: rgba(0, 255, 166, 0.804);
+  width: 20vh;
+  height: 20vh;
+  margin: 0 auto;
+  
+  /* align-items: center; */
+}
+
+
+
+.navegacion{
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  padding:14px 20px ;
+  color: azure;
+}
+.nav-links{
+  margin-left: 20px;
+}
+
+.nav-links a {
+  
+}
